@@ -175,10 +175,11 @@ p, li {
 /* -------------------THE PROBLEM------------------- */
 .the-problem {
   text-align: center;
+  padding-bottom: 0;
 }
 
 /* -------------------OUR USERS------------------- */
-.our-user article {
+.our-users{
   padding:0;
 }
 /* -------------------USER RESEARCH------------------- */
@@ -207,7 +208,11 @@ p, li {
   text-align: center;
   letter-spacing: 1.2px;
   font-size: 1.4em;
-  margin: 30px 0 30px 0;
+  margin: 7% 0 7% 0;
+}
+
+.data-analysis h3 {
+  padding: 2% 0 2% 0;
 }
 /* -------------------FINDINGS------------------- */
 .findings {
@@ -238,15 +243,27 @@ p, li {
 }
 
 .prototype-section {
-  margin: 15% 0 15% 0;
+  margin: 0 0 10% 0;
+}
+
+.prototype-section .kids-kit {
+  margin-top:0;
 }
 /* -------------------SOLUTION------------------- */
 .solution {
-  background: var(--royal-purple);
+  background: var(--medium-turquoise);
   color: var(--white);
+}
+
+.solution ul {
+  padding-left: 15%;
 }
 /* -------------------USABILITY STUDY------------------- */
 
+.usability-study {
+  background: var(--royal-purple);
+  color: var(--white);
+}
 
 /* -------------------ABOUT------------------- */
 .about {
